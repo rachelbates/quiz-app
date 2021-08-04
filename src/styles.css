@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+#root {
+  max-width: 650px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+}
+h1 {
+  margin-top: 0;
+}
+button.next {
+  background-color: white;
+  padding: 1rem 3rem;
+  font-size: 15px;
+  cursor: pointer;
+}
+button.next:hover {
+  background-color: #f9f9f9;
+}
+ol {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
+  padding: 0.25rem 1rem;
+  margin-bottom: 0.25rem;
+  cursor: pointer;
+  border: 2px solid white;
+  text-align: left;
+}
+::marker {
+  font-family: sans-serif;
+}
+.correct-answer {
+  border: 2px solid green;
+}
+.incorrect-answer {
+  border: 2px solid red;
+  text-decoration: line-through;
+}
